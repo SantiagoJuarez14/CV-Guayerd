@@ -35,13 +35,15 @@ h1{
 nav{
     
     color: white;
-    margin-left: 25em;
+    margin-left: 15em;
+    margin-bottom: 2em;
         
 }
 .nav{
     border-left: 1px solid white;
     display: inline-block;
     margin-left: 3em; 
+    padding-left: 3.5em;
     
 }
 main{
@@ -138,17 +140,22 @@ a{
     margin-top: 20px;
 }
 .linkedin{
-    margin-top: 3em;
-    padding-left: 10em;
+    margin-top: 3.6em;
+    padding-left: 15em;
     display: flex;
     width: 2em;
     
 }
 .ig{
     width: 2em;
-    margin-top: 3em;
+    margin-top: 3.6em;
+    margin-left: 1em;
     
-    
+}
+.mail{
+    width: 2em;
+    margin-left: 1em;
+    margin-top: 3.6em;
 }
 
 @media (max-width: 1024px){
