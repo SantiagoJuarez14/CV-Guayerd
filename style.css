@@ -2,7 +2,7 @@
 body{
     margin: 0 auto;
     background-color: #ffc8dd;
-    
+    display: flex;
     
 }
 :root{
