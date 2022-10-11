@@ -115,7 +115,6 @@ p{
     
 }
 h4{
-    
     font-size: 20px;
     display: inline;
     padding-bottom: 10px;
@@ -178,7 +177,23 @@ a{
     margin-top: 3em;
     margin-bottom: 5em;
 }
-
+.programas{
+    width: 4%;
+    
+    
+}
+.round{
+    border-radius: 17%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+    margin-top: 5em;
+    
+}
 
 
 @media (max-width: 1024px){
