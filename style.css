@@ -158,6 +158,24 @@ a{
     margin-top: 3.6em;
 }
 
+.horizontal{
+    width: 45%;
+    margin-left: 3.5em;
+    margin-top: 3em;
+}
+.verticales{
+    width: 20%;
+    margin-left: 3.5em;
+    margin-top: 3em;
+}
+.vert3{
+    width: 20%;
+    margin-left: 9.7em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+
 @media (max-width: 1024px){
     main{
         flex-direction: column;
