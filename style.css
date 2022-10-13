@@ -45,12 +45,7 @@ h3{
     color: var(--black);
     height: 1em;
 }
-.mail1{
-    height: 1em;
-    margin-top: 6.6em;
-    margin-left: -18.3em;
-    
-}
+
 nav{
     
     color: white;
@@ -97,8 +92,7 @@ li{
     list-style: none;
     color: var(--black);
     padding-top: 3px;
-
-    
+   
 }
 p{
     display: flex;
@@ -162,7 +156,7 @@ a{
 .linkedin{
     margin-top: 3.6em;
     padding-left: 15em;
-    display: flex;
+    
     width: 2em;
     
 }
