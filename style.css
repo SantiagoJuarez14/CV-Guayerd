@@ -114,6 +114,7 @@ ul{
 }
 li{
     list-style: none;
+    
     color: var(--black);
     padding-top: 3px;
     
@@ -257,6 +258,7 @@ section{
     body{
         flex-direction: column;
         flex-wrap: wrap;
+        
     }
     header{
         padding-top: 0em;
