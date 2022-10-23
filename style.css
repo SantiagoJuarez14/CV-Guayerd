@@ -215,14 +215,8 @@ a:hover{
     margin-top: 3em;
     margin-bottom: 5em;
 }
-.programas{
-    width: 4%;
-    
-    
-}
-.round{
-    border-radius: 17%;
-}
+
+
 section{
     display: flex;
     flex-wrap: wrap;
@@ -249,9 +243,39 @@ section{
 }
 .contenedor{
     display: flex;
-    justify-content: center;
+    justify-content: center;   
+}
+section{
+    display: flex;
     
-    
+    flex-wrap: wrap;
+}
+article{
+    width: 10em;
+    flex: 4;
+}
+.programas{
+    width: 100%; 
+}
+.programas1{
+    width: 242%;
+}
+.programas2{
+    width: 90%;
+}
+.programas3{
+    width: 64%;
+}
+.programas4{
+    width: 92%;
+}
+.programas5{
+    width: 123%;
+    border-radius: 17%
+}
+.programas6{
+    width: 6%;
+    border-radius: 17%
 }
 
 @media (max-width: 1024px){
