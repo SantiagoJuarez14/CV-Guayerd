@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Fixture Mundial</h1>
+    <div>
+        <h1>Grupo A</h1>
+        <ul id="a"></ul>
+    </div>
+    <div>
+        <h1>Grupo B</h1>
+        <ul id="b"></ul>
+    </div>
+    <div>
+        <h1>Grupo C</h1>
+        <ul id="c"></ul>
+    </div>
+    <div>
+        <h1>Grupo D</h1>
+        <ul id="d"></ul>
+    </div>
+    <div>
+        <h1>Grupo E</h1>
+        <ul id="e"></ul>
+    </div>
+    <div>
+        <h1>Grupo F</h1>
+        <ul id="f"></ul>
+    </div>
+    <div>
+        <h1>Grupo G</h1>
+        <ul id="g"></ul>
+    </div>
+    <div>
+        <h1>Grupo H</h1>
+        <ul id="h"></ul>
+    </div>
+
+    <script>
+        
+   
+      let a = document.querySelector("#a");
+      let b = document.querySelector("#b");
+      let c = document.querySelector("#c");
+      let d = document.querySelector("#d");
+      let e = document.querySelector("#e");
+      let f = document.querySelector("#f");
+      let g = document.querySelector("#g");
+      let h = document.querySelector("#h");
+
+      let team;
+      let grupo;
+      while (team !== "salir") {
+        if (team) {
+          let li = document.createElement("li");
+          li.appendChild(document.createTextNode(team));
+          if (grupo=== 'a'){
+            a.appendChild(li);
+          } else if (grupo === 'b') {
+            b.appendChild(li);
+          } else if(grupo === 'c') {
+            c.appendChild(li);
+          } else if(grupo === 'd') {
+            c.appendChild(li);
+          } else if(grupo === 'e') {
+            c.appendChild(li);
+          } else if(grupo === 'f') {
+            c.appendChild(li);
+          } else if(grupo === 'g') {
+            c.appendChild(li);
+          } else if(grupo === 'h') {
+            c.appendChild(li);
+          }
+        }
+        grupo = prompt("introduce grupo");
+        team = prompt("introduce equipo");
+      }
+
+    </script>
+</body>
+</html>
